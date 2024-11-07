@@ -1,0 +1,82 @@
+// 全局样式配置
+html{
+  scroll-behavior: smooth;
+  // background-color: #370292;
+  // height: 100%;
+  background: linear-gradient(to top, #41346A,#7F69A7, #bf9bd954);
+  // transition: all .5s;
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  cursor: pointer;
+  list-style: none;
+}
+
+div{
+  box-sizing: border-box;
+}
+// 媒体查询配置
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 0.8px;
+    .contentBoxShow{
+      width: 100%!important;
+    }
+    .friends-box{
+      width: 50%!important;
+    }
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 2px;
+    .contentBoxShow{
+      width: 100%!important;
+    }
+    .friends-box{
+      width: 50%!important;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 24px;
+  }
+}

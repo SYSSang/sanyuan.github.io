@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "33820532",
+      "name": "业务_鱼",
+      "font_class": "yewu_yu",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    }
+  ]
+}
